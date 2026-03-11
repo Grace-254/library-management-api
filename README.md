@@ -68,22 +68,19 @@ You can adjust this section if your actual app name or structure is different.
 git clone https://github.com/Grace-254/library-management-api.git
 cd library-management-api
 
-# Create and activate a virtual environment (example for Linux/Mac)
+# Create and activate a virtual environment (Linux/Mac)
 python -m venv venv
 source venv/bin/activate
-# On Windows: venv\Scripts\activate
+# On Windows:
+# venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Apply migrations
+# Apply migrations and run the server
 python manage.py migrate
-
-# Create a superuser (admin account)
 python manage.py createsuperuser
-
-# Run the development server
 python manage.py runserver
-## License
+
 
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE.md) file for details.
