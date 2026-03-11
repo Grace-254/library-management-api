@@ -16,8 +16,7 @@ A Django REST API for managing a library’s books, members, and borrowing proce
 - License
 
 ## Overview
-
-This project is my capstone project for ALX Backend program. It solves the problem of manually tracking library records by providing a centralized, API‑driven system.
+This project is a Library Management API built with Django and Django REST Framework. It helps librarians manage books, members, and borrowing/returns through a clean REST API instead of manual records. It is developed as my capstone project to demonstrate backend and API development skills.
 
 The API is designed for:
 - Librarians who manage books and members.
